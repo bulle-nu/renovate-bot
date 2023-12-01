@@ -6,7 +6,7 @@ module.exports = {
   platform: "github",
   includeForks: true,
   dryRun: "full",
-  repositories: ["renovate-tests/cocoapods1", "renovate-tests/gomod1"],
+  repositories: ["ch0nen/8_jobs_and_docker"],
   packageRules: [
     {
       description: "lockFileMaintenance",
