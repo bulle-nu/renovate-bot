@@ -5,7 +5,6 @@ module.exports = {
   onboarding: true,
   platform: "github",
   includeForks: true,
-  dryRun: "full",
   repositories: ["ch0nen/8_jobs_and_docker"],
   packageRules: [
     {
