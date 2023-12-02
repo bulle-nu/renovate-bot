@@ -6,7 +6,8 @@ module.exports = {
   platform: "github",
   includeForks: true,
   dryRun: "full",
-  repositories: ["bulle-nu/8_jobs_and_docker.git"],
+  autodiscover: true,
+  // repositories: ["bulle-nu/8_jobs_and_docker.git"],
   packageRules: [
     {
       description: "lockFileMaintenance",
