@@ -5,6 +5,7 @@ module.exports = {
   onboarding: true,
   platform: "github",
   includeForks: true,
+  dryRun: "full",
   repositories: ["bulle-nu/8_jobs_and_docker.git"],
   packageRules: [
     {
