@@ -5,10 +5,10 @@ module.exports = {
   onboarding: true,
   platform: "github",
   includeForks: true,
-  dryRun: "full",
+  //dryRun: "full",
   //autodiscover: true,
   //autodiscoverFilter: ["bulle-nu/*"],
-  repositories: ["bulle-nu/8_jobs_and_docker"],
+  repositories: ["bulle-nu/8_jobs_and_docker", "bulle-nu/01-Starting-Project"],
   packageRules: [
     {
       description: "lockFileMaintenance",
