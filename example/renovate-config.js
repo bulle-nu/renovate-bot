@@ -9,6 +9,7 @@ module.exports = {
   //autodiscover: true,
   //autodiscoverFilter: ["bulle-nu/*"],
   repositories: ["bulle-nu/8_jobs_and_docker", "bulle-nu/01-Starting-Project"],
+  ignorePaths: ["node_modules/"],
   packageRules: [
     {
       description: "lockFileMaintenance",
@@ -18,7 +19,7 @@ module.exports = {
         "patch",
         "minor",
         "major",
-        "lockFileMaintenance",
+        //"lockFileMaintenance",
       ],
       dependencyDashboardApproval: false,
       stabilityDays: 0,
