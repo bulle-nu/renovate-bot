@@ -7,6 +7,7 @@ module.exports = {
   includeForks: true,
   dryRun: "full",
   autodiscover: true,
+  autodiscoverFilter: ["bulle-nu/*"],
   // repositories: ["bulle-nu/8_jobs_and_docker.git"],
   packageRules: [
     {
