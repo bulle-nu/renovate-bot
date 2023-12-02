@@ -5,7 +5,7 @@ module.exports = {
   onboarding: true,
   platform: "github",
   includeForks: true,
-  repositories: ["bulle-nu/01-Starting-Project.git"],
+  repositories: ["bulle-nu/8_jobs_and_docker.git"],
   packageRules: [
     {
       description: "lockFileMaintenance",
